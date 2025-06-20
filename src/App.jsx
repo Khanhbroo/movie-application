@@ -2,6 +2,7 @@ import { useState } from "react";
 import Search from "./components/Search";
 import Spinner from "./components/Spinner";
 import { movies } from "../movies";
+import MovieCard from "./components/MovieCard";
 
 // const API_BASE_URL = "https://moviesdatabase.p.rapidapi.com";
 
@@ -18,7 +19,11 @@ import { movies } from "../movies";
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
-  // If you're using API to fetch, here's the logic down. Since, there is some problem in verification with TMDB, I'll create data from movies.js
+  const filteredMovies = movies.filter((movie) =>
+    movie.title.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
+  // If you're using API to fetch, here's the logic down. Since, there is some problem in verification with TMDB, I'll create my own data named movies.js
   // const [errorMessage, setErrorMessage] = useState("");
   // const [movieList, setmovieList] = useState([]);
   // const [isLoading, setIsLoading] = useState(false);
@@ -88,10 +93,8 @@ const App = () => {
 
           {
             <ul>
-              {movies.map((movie) => (
-                <p key={movie.id} className="text-white">
-                  {movie.title}
-                </p>
+              {filteredMovies.map((movie) => (
+                <MovieCard key={movie.id} movie={movie} />
               ))}
             </ul>
           }

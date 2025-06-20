@@ -9,6 +9,7 @@ export const movies = [
     poster_url:
       "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
     vote_average: 4.7,
+    language: "En",
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ export const movies = [
     poster_url:
       "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
     vote_average: 4.8,
+    language: "En",
   },
   {
     id: 3,
@@ -31,6 +33,7 @@ export const movies = [
     poster_url:
       "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
     vote_average: 4.9,
+    language: "En",
   },
   {
     id: 4,
@@ -42,6 +45,7 @@ export const movies = [
     poster_url:
       "https://image.tmdb.org/t/p/w500/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
     vote_average: 4.4,
+    language: "En",
   },
   {
     id: 5,
@@ -53,6 +57,7 @@ export const movies = [
     poster_url:
       "https://image.tmdb.org/t/p/w500/lcq8dVxeeOqHvvgcte707K0KVx5.jpg",
     vote_average: 4.3,
+    language: "En",
   },
   {
     id: 6,
@@ -64,6 +69,7 @@ export const movies = [
     poster_url:
       "https://image.tmdb.org/t/p/w500/fSbqPbqXa7ePo8bcnZYN9AHv6zA.jpg",
     vote_average: 3.8,
+    language: "En",
   },
   {
     id: 7,
@@ -75,6 +81,7 @@ export const movies = [
     poster_url:
       "https://image.tmdb.org/t/p/w500/c3e9e18SSlvFd1cQaGmUj5tqL5P.jpg",
     vote_average: 3.6,
+    language: "En",
   },
   {
     id: 8,
@@ -86,6 +93,7 @@ export const movies = [
     poster_url:
       "https://image.tmdb.org/t/p/w500/olxpyq9kJAZ2NU1siLshhhXEPR7.jpg",
     vote_average: 4.5,
+    language: "En",
   },
   {
     id: 9,
@@ -97,6 +105,7 @@ export const movies = [
     poster_url:
       "https://image.tmdb.org/t/p/w500/rweIrveL43TaxUN0akQEaAXL6x0.jpg",
     vote_average: 4.2,
+    language: "En",
   },
   {
     id: 10,
@@ -108,6 +117,7 @@ export const movies = [
     poster_url:
       "https://image.tmdb.org/t/p/w500/qFmwhVUoUSXjkKRmca5yGDEXBIj.jpg",
     vote_average: 3.2,
+    language: "En",
   },
   {
     id: 11,
@@ -119,6 +129,7 @@ export const movies = [
     poster_url:
       "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
     vote_average: 4.9,
+    language: "En",
   },
   {
     id: 12,
@@ -130,6 +141,7 @@ export const movies = [
     poster_url:
       "https://image.tmdb.org/t/p/w500/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg",
     vote_average: 4.3,
+    language: "En",
   },
   {
     id: 13,
@@ -141,6 +153,7 @@ export const movies = [
     poster_url:
       "https://image.tmdb.org/t/p/w500/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg",
     vote_average: 3.9,
+    language: "En",
   },
   {
     id: 14,
@@ -152,6 +165,7 @@ export const movies = [
     poster_url:
       "https://image.tmdb.org/t/p/w500/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
     vote_average: 3.6,
+    language: "En",
   },
   {
     id: 15,
@@ -163,6 +177,7 @@ export const movies = [
     poster_url:
       "https://image.tmdb.org/t/p/w500/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
     vote_average: 3.5,
+    language: "En",
   },
   {
     id: 16,
@@ -174,6 +189,7 @@ export const movies = [
     poster_url:
       "https://image.tmdb.org/t/p/w500/6JjfSchsU6daXk2AKX8EEBjO3Fm.jpg",
     vote_average: 2.5,
+    language: "En",
   },
   {
     id: 17,
@@ -185,6 +201,7 @@ export const movies = [
     poster_url:
       "https://image.tmdb.org/t/p/w500/78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
     vote_average: 4.6,
+    language: "En",
   },
   {
     id: 18,
@@ -196,6 +213,7 @@ export const movies = [
     poster_url:
       "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
     vote_average: 4.8,
+    language: "En",
   },
   {
     id: 19,
@@ -207,6 +225,7 @@ export const movies = [
     poster_url:
       "https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
     vote_average: 3.7,
+    language: "En",
   },
   {
     id: 20,
@@ -218,5 +237,6 @@ export const movies = [
     poster_url:
       "https://image.tmdb.org/t/p/w500/uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
     vote_average: 4.5,
+    language: "En",
   },
 ];
